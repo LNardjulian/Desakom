@@ -8,7 +8,15 @@ class loginpage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(children: [TextField()]),
+      body: Container(
+        color:  Color(0xffEAEFEE),
+        padding: EdgeInsets.symmetric(horizontal: 20, vertical: 40),
+        width: double.infinity,
+        child: Column(crossAxisAlignment: CrossAxisAlignment.center, children:[
+          Text(
+            "Login",
+            style: TextStyle(fontSize: 24, fontWeight: ),
+          )])),
     );
   }
 }
